@@ -1,4 +1,4 @@
-# CodeAlpha_FinancialHealthDashboard-Final-I understand. To make this a truly elite GitHub README, we need to move beyond descriptions and provide the Technical Blueprints. This version includes the exact DAX formulas used to solve the "flat-line" and "summarization" issues, plus a visual-by-visual breakdown of every chart you created.
+CodeAlpha_FinancialHealthDashboard-Final-I understand. To make this a truly elite GitHub README, we need to move beyond descriptions and provide the Technical Blueprints. This version includes the exact DAX formulas used to solve the "flat-line" and "summarization" issues, plus a visual-by-visual breakdown of every chart you created.
 
 # 📊 Advanced Financial Intelligence & Stability Dashboard
 # A Professional Power BI Framework for SME Fiscal Analysis
