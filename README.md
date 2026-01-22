@@ -11,14 +11,14 @@ To ensure the dashboard remains accurate across multiple years and companies, th
 # 1. Performance & Efficiency Measures
 Total Revenue & Net Income: Established as the primary KPIs to track top-line growth and bottom-line profit.
 
-## Dynamic Profit Margin %: Profit Margin % = DIVIDE(SUM([Net Income]), SUM([Revenue]), 0) This formula handles zero-division errors and was formatted as a percentage to reveal shifts from 9% to 22%.
+Dynamic Profit Margin %: Profit Margin % = DIVIDE(SUM([Net Income]), SUM([Revenue]), 0) This formula handles zero-division errors and was formatted as a percentage to reveal shifts from 9% to 22%.
 
 # 2. Liquidity & Stability Measures
 Corrected Current Ratio: Current Ratio = DIVIDE(SUM([Total Current Assets]), SUM([Total Current Liabilities])) Used in the Gauge visual to track the health score of 2.04.
 
-## Yearly ROE (Table-Specific): Table Yearly ROE = SELECTEDVALUE('Financial Statements'[ROE]) This measure was critical in forcing the Stability Table to show individual yearly data (e.g., 11.66%) instead of a single total.
+ Yearly ROE (Table-Specific): Table Yearly ROE = SELECTEDVALUE('Financial Statements'[ROE]) This measure was critical in forcing the Stability Table to show individual yearly data (e.g., 11.66%) instead of a single total.
 
-## Debt-to-Equity Ratio: D/E Ratio = AVERAGE('Financial Statements'[Debt/Equity Ratio]) Calculates the leverage of 1.21, allowing for risk assessment against industry peers.
+Debt-to-Equity Ratio: D/E Ratio = AVERAGE('Financial Statements'[Debt/Equity Ratio]) Calculates the leverage of 1.21, allowing for risk assessment against industry peers.
 
 🎨 Visual-by-Visual Configuration
 Every chart in this dashboard was meticulously tuned to provide a specific financial insight.
