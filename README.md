@@ -74,3 +74,18 @@ Efficiency: Profitability margins expanded significantly, peaking at 22%.
 Solvency: A Current Ratio of 2.04 indicates high liquidity and low short-term risk.
 
 ROI: Average ROE of 11.66% demonstrates effective management of shareholder capital.
+## DAX Formulas Used
+To ensure accuracy, the following custom measures were developed:
+
+# Current Ratio: Current Ratio = DIVIDE(SUM(Assets), SUM(Liabilities))
+
+# Profit Margin %: Dynamic Profit Margin % = DIVIDE([Net Income], [Revenue])
+
+# ROE Tracking: Table Yearly ROE = SELECTEDVALUE('Financial Statements'[ROE])
+
+## 📂 Project Structure
+Data: (Simulated) Financial statements including Income Sheets and Balance Sheets.
+
+ Report: The .pbix file containing all data models and visualizations.
+
+Screenshots: Visual documentation of the dashboard progress.
